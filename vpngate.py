@@ -85,8 +85,9 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        
-        "",
+        "cf.777791.xyz:443,fn.130519.xyz:443,cf.1o.ee:443,img.css.sd:443,cdn.204910.best:443,p.etime.vip:443,auto.dolby.dpdns.org:443,"
+        "cf.877774.xyz:443,cloudflare.idc.rocks:443,saas.sin.fan:443,staticdelivery.nexusmods.com:443,spring.io:443,www.gov.il:443,"
+        "www.mfyx.cn:443,cf.xreak.top:443,www.wto.org:443,jobsdb.com:443,www.vmware.com:443,cf.itv888.cn:443,kickstarter.com:443",
     ).split(",")
     if h.strip()
 ]
@@ -94,7 +95,7 @@ EDGE_HOSTS = [
 # 优选 API 地址配置 (支持逗号分隔多个，可配置在 GitHub Action Secret / Env 中)
 OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/ct?ips=6&port=443,https://cf.090227.xyz/cmcc?ips=8&port=443")
 
-NODES_URL = os.environ.get("NODES_URL", "https://weifanglbj.github.io/gate/nodes.txt")
+NODES_URL = os.environ.get("NODES_URL", "https://weianglbj.github.io/gate/nodes.txt")
 
 # ---------------------------------------------------------------------------
 # 日志
